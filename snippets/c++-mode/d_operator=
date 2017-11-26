@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: d operator member
+# key: dop=
+# --
+${1:MyClass}& operator${2:+}=(${3:const $1 &});

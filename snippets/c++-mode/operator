@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: operator non member
+# key: op
+# --
+${1:MyClass} operator${2:+}(${3:const $1 &lhs}, ${4:const $1 &rhs})
+{
+    $1 ret;
+    $0
+    return ret;
+}
